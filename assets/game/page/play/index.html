@@ -1,0 +1,152 @@
+<div class="play-content fadeIn">
+    <div class="play-overlay">
+        <img src="/assets/game/img/bt-tengah.jpg?v=1" alt="tangkas asia"/>
+    </div>
+    <div class="play-buttons">
+        <div class="button-overlay"></div>
+        <div class="button play" id="deal-btn">
+            <div>BET</div>
+        </div>
+        <div class="button win" id="transfer-btn">
+            <div>TRANSFER</div>
+        </div>
+        <div class="button play" id="skip-btn">
+            <div>FOLD</div>
+        </div>
+    </div>
+
+    <div class="creditopt">
+        <div onclick="event.stopPropagation();
+                $('#credit').click();">COIN <i class="fa fa-plus-circle fa-lg yellow-color"></i>
+        </div>
+        <div onclick="event.stopPropagation();
+                $('#credit').contextmenu();">COIN <i class="fa fa-minus-circle fa-lg"></i>
+        </div>
+    </div>
+
+    <div class="play-header">
+        <div class="info-left">
+            <div class="section" id="colok">
+                FUL = <span>A</span>
+                <div class="colokopt">
+                    <i class="fa fa-arrow-left fa-lg" onclick="event.stopPropagation();
+                            $('#colok').contextmenu();" style="margin-left:5px"></i> 
+                    <i class="fa fa-arrow-right fa-lg yellow-color" onclick="event.stopPropagation();
+                            $('#colok').click();" style="margin-left:5px"></i>
+                </div>
+            </div>
+            <div class="section red-color" id="topbonus"></div>
+            <div class="section" id="credit">
+                <div class="green-color">CREDIT</div>
+                <div class="yellow-color val blink">INSERT COIN</div>
+            </div>
+            <div class="section betx">BET <span class="red-color" id="betx">0</span></div>
+            <div class="section rf">
+                <div class="green-color" id="rf">0</div>
+                <div data-yellow="yellow-color" class="yellow-color bet-amount" id="bet1">0</div>
+            </div>
+            <div class="section fivek">
+                <div class="green-color" id="fivek">0</div>
+                <div data-yellow="yellow-color" class=" bet-amount" id="bet2">0</div>
+            </div>
+            <div class="section sf">
+                <div class="green-color" id="sf">0</div>
+                <div data-yellow="yellow-color" class="yellow-color bet-amount" id="bet3">0</div>
+            </div>
+            <div class="section fourk">
+                <div class="green-color" id="fourk">0</div>
+                <div data-yellow="yellow-color" class="bet-amount" id="bet4">0</div>
+            </div>
+            <div class="section tbet">
+                <div class="red-color" id="tbet">0</div>
+            </div>
+        </div>
+        <div class="info-right">
+            <table width="100%">
+                <tr>
+                    <td class="rank-categ" align="center" width="1%"></td>
+                    <td data-color="yellow-color" class="yellow-color rank rf" width="70%">ROYAL FLUSH</td>
+                    <td data-color="yellow-color" class="yellow-color" data-prize="500" align="right">500</td>
+                </tr>
+                <tr>
+                    <td class="rank-categ" align="center"></td>
+                    <td class="rank">5 OF A KIND</td>
+                    <td data-prize="200" align="right">200</td>
+                </tr>
+                <tr>
+                    <td class="rank-categ" align="center"></td>
+                    <td data-color="yellow-color" class="yellow-color rank strf">STR FLUSH</td>
+                    <td data-color="yellow-color" class="yellow-color" data-prize="100" align="right">100</td>
+                </tr>
+                <tr>
+                    <td class="rank-categ" align="center"></td>
+                    <td class="rank">4 OF A KIND</td>
+                    <td data-prize="50" align="right">50</td>
+                </tr>
+                <tr>
+                    <td class="rank-categ" align="center"></td>
+                    <td data-color="yellow-color" class="yellow-color rank fh">FULL HOUSE</td>
+                    <td data-color="yellow-color" class="yellow-color" data-prize="7" align="right">7</td>
+                </tr>
+                <tr>
+                    <td class="rank-categ" align="center"></td>
+                    <td class="rank">FLUSH</td>
+                    <td data-prize="5" align="right">5</td>
+                </tr>
+                <tr>
+                    <td class="rank-categ" align="center"></td>
+                    <td data-color="yellow-color" class="yellow-color rank str">STRAIGHT</td>
+                    <td data-color="yellow-color" class="yellow-color" data-prize="3" align="right">3</td>
+                </tr>
+                <tr>
+                    <td class="rank-categ" align="center"></td>
+                    <td class="rank">3 OF A KIND</td>
+                    <td data-prize="2" align="right">2</td>
+                </tr>
+                <tr>
+                    <td class="rank-categ" align="center"></td>
+                    <td data-color="yellow-color" class="yellow-color rank twop">2 PAIR (10)</td>
+                    <td data-color="yellow-color" class="yellow-color" data-prize="1" align="right">1</td>
+                </tr>
+                <tr>
+                    <td class="rank-categ" align="center"></td>
+                    <td class="rank">ACE PAIR</td>
+                    <td data-prize="1" align="right">1</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="play-board">
+        <div class="board-image">
+            <img src="/assets/game/img/bt-tengah.jpg?v=1" alt="tangkasnet"/>
+        </div>
+        <div class="board main">
+            <div class="card cover"></div>
+            <div class="card cover"></div>
+            <div class="card cover"></div>
+            <div class="card cover"></div>
+            <div class="card cover"></div>
+            <div class="card cover"></div>
+            <div class="card cover"></div>
+        </div>
+    </div>
+    <div class="play-footer">
+        <div style="float:left;">
+            <span id="playroom"></span>&nbsp;
+            <span id="playuname"></span>&nbsp;
+            <span id="credit">0</span>
+        </div>
+        <div class="setguide" style="float:right">
+            <div onclick="homeMenuClick('help')">
+                <i class="fa fa-book fa-2x"></i>
+            </div>
+            <div onclick="homeMenuClick('settings')">
+                <i class="fa fa-gear fa-2x"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<audio id="flipAudio">
+    <source src="/assets/game/sound/flip.mp3" type="audio/ogg">
+</audio>
+<script src="/assets/game/js/play.js"></script>
