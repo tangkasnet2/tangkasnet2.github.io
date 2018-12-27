@@ -10,65 +10,65 @@ h1 {
 }
 
 .card{
-    width:111px;
-    height:216px;
+    width:113px;
+    height:218px;
     border-radius:10px
 }
-.card.cover {background: url(../img/card-1.png) -226px 217px}
-.card.joker-black {background: url(../img/card-1.png) -1px 217px}
-.card.joker-red {background: url(../img/card-1.png) -114px 217px}
-.card.ace-spade-1 {background: url(../img/card-1.png) -1px -1px}
-.card.two-spade-1 {background: url(../img/card-1.png) -114px -1px}                                      
-.card.three-spade-1 {background: url(../img/card-1.png) -227px -1px}                                      
-.card.four-spade-1 {background: url(../img/card-1.png) -340px -1px}                                      
-.card.five-spade-1 {background: url(../img/card-1.png) -453px -1px}                                      
-.card.six-spade-1 {background: url(../img/card-1.png) -566px -1px}                                      
-.card.seven-spade-1 {background: url(../img/card-1.png) -679px -1px}                                      
-.card.eight-spade-1 {background: url(../img/card-1.png) -792px -1px}                                      
-.card.nine-spade-1 {background: url(../img/card-1.png) -905px -1px}                                      
-.card.ten-spade-1 {background: url(../img/card-1.png) -1018px -1px}                                      
-.card.jack-spade-1 {background: url(../img/card-1.png) -1131px -1px}                                      
-.card.queen-spade-1 {background: url(../img/card-1.png) -1244px -1px}                                      
-.card.king-spade-1 {background: url(../img/card-1.png) -1357px -1px}
-.card.ace-heart-1 {background: url(../img/card-1.png) -1px -219px}
-.card.two-heart-1 {background: url(../img/card-1.png) -114px -219px}                                      
-.card.three-heart-1 {background: url(../img/card-1.png) -227px -219px}                                      
-.card.four-heart-1 {background: url(../img/card-1.png) -340px -219px}                                      
-.card.five-heart-1 {background: url(../img/card-1.png) -453px -219px}                                      
-.card.six-heart-1 {background: url(../img/card-1.png) -566px -219px}                                      
-.card.seven-heart-1 {background: url(../img/card-1.png) -679px -219px}                                      
-.card.eight-heart-1 {background: url(../img/card-1.png) -792px -219px}                                    
-.card.nine-heart-1 {background: url(../img/card-1.png) -905px -219px}                                      
-.card.ten-heart-1 {background: url(../img/card-1.png) -1018px -219px}                                      
-.card.jack-heart-1 {background: url(../img/card-1.png) -1131px -219px}                                      
-.card.queen-heart-1 {background: url(../img/card-1.png) -1244px -219px}                                      
-.card.king-heart-1 {background: url(../img/card-1.png) -1357px -219px}
-.card.ace-diamond-1 {background: url(../img/card-1.png) -1px -437px}
-.card.two-diamond-1 {background: url(../img/card-1.png) -114px -437px}                                      
-.card.three-diamond-1 {background: url(../img/card-1.png) -227px -437px}                                      
-.card.four-diamond-1 {background: url(../img/card-1.png) -340px -437px}                                      
-.card.five-diamond-1 {background: url(../img/card-1.png) -453px -437px}                                      
-.card.six-diamond-1 {background: url(../img/card-1.png) -566px -437px}                                      
-.card.seven-diamond-1 {background: url(../img/card-1.png) -679px -437px}
-.card.eight-diamond-1 {background: url(../img/card-1.png) -792px -437px}                                      
-.card.nine-diamond-1 {background: url(../img/card-1.png) -905px -437px}                                      
-.card.ten-diamond-1 {background: url(../img/card-1.png) -1018px -437px}                                      
-.card.jack-diamond-1 {background: url(../img/card-1.png) -1131px -437px}                                      
-.card.queen-diamond-1 {background: url(../img/card-1.png) -1244px -437px}                                      
-.card.king-diamond-1 {background: url(../img/card-1.png) -1357px -437px}
-.card.ace-club-1 {background: url(../img/card-1.png) -1px -655px}
-.card.two-club-1 {background: url(../img/card-1.png) -114px -655px}
-.card.three-club-1 {background: url(../img/card-1.png) -227px -655px}
-.card.four-club-1 {background: url(../img/card-1.png) -340px -655px}
-.card.five-club-1 {background: url(../img/card-1.png) -453px -655px}
-.card.six-club-1 {background: url(../img/card-1.png) -566px -655px}
-.card.seven-club-1 {background: url(../img/card-1.png) -679px -655px}
-.card.eight-club-1 {background: url(../img/card-1.png) -792px -655px}
-.card.nine-club-1 {background: url(../img/card-1.png) -905px -655px}
-.card.ten-club-1 {background: url(../img/card-1.png) -1018px -655px}
-.card.jack-club-1 {background: url(../img/card-1.png) -1131px -655px}
-.card.queen-club-1 {background: url(../img/card-1.png) -1244px -655px}
-.card.king-club-1 {background: url(../img/card-1.png) -1357px -655px}
+.card.cover {background: url(../img/card-1.png) -226px 218px}
+.card.joker-black {background: url(../img/card-1.png) 0 218px}
+.card.joker-red {background: url(../img/card-1.png) -113px 218px}
+.card.ace-spade-1 {background: url(../img/card-1.png) 0 0}
+.card.two-spade-1 {background: url(../img/card-1.png) -113px 0}                                      
+.card.three-spade-1 {background: url(../img/card-1.png) -226px 0}                                      
+.card.four-spade-1 {background: url(../img/card-1.png) -339px 0}                                      
+.card.five-spade-1 {background: url(../img/card-1.png) -452px 0}                                      
+.card.six-spade-1 {background: url(../img/card-1.png) -565px 0}                                      
+.card.seven-spade-1 {background: url(../img/card-1.png) -678px 0}                                      
+.card.eight-spade-1 {background: url(../img/card-1.png) -791px 0}                                      
+.card.nine-spade-1 {background: url(../img/card-1.png) -904px 0}                                      
+.card.ten-spade-1 {background: url(../img/card-1.png) -1017px 0}                                      
+.card.jack-spade-1 {background: url(../img/card-1.png) -1130px 0}                                      
+.card.queen-spade-1 {background: url(../img/card-1.png) -1243px 0}                                      
+.card.king-spade-1 {background: url(../img/card-1.png) -1356px 0}
+.card.ace-heart-1 {background: url(../img/card-1.png) 0 -218px}
+.card.two-heart-1 {background: url(../img/card-1.png) -113px -218px}                                      
+.card.three-heart-1 {background: url(../img/card-1.png) -226px -218px}                                      
+.card.four-heart-1 {background: url(../img/card-1.png) -339px -218px}                                      
+.card.five-heart-1 {background: url(../img/card-1.png) -452px -218px}                                      
+.card.six-heart-1 {background: url(../img/card-1.png) -565px -218px}                                      
+.card.seven-heart-1 {background: url(../img/card-1.png) -678px -218px}                                      
+.card.eight-heart-1 {background: url(../img/card-1.png) -791px -218px}                                    
+.card.nine-heart-1 {background: url(../img/card-1.png) -904px -218px}                                      
+.card.ten-heart-1 {background: url(../img/card-1.png) -1017px -218px}                                      
+.card.jack-heart-1 {background: url(../img/card-1.png) -1130px -218px}                                      
+.card.queen-heart-1 {background: url(../img/card-1.png) -1243px -218px}                                      
+.card.king-heart-1 {background: url(../img/card-1.png) -1356px -218px}
+.card.ace-diamond-1 {background: url(../img/card-1.png) 0 -436px}
+.card.two-diamond-1 {background: url(../img/card-1.png) -113px -436px}                                      
+.card.three-diamond-1 {background: url(../img/card-1.png) -226px -436px}                                      
+.card.four-diamond-1 {background: url(../img/card-1.png) -339px -436px}                                      
+.card.five-diamond-1 {background: url(../img/card-1.png) -452px -436px}                                      
+.card.six-diamond-1 {background: url(../img/card-1.png) -565px -436px}                                      
+.card.seven-diamond-1 {background: url(../img/card-1.png) -678px -436px}
+.card.eight-diamond-1 {background: url(../img/card-1.png) -791px -436px}                                      
+.card.nine-diamond-1 {background: url(../img/card-1.png) -904px -436px}                                      
+.card.ten-diamond-1 {background: url(../img/card-1.png) -1017px -436px}                                      
+.card.jack-diamond-1 {background: url(../img/card-1.png) -1130px -436px}                                      
+.card.queen-diamond-1 {background: url(../img/card-1.png) -1243px -436px}                                      
+.card.king-diamond-1 {background: url(../img/card-1.png) -1356px -436px}
+.card.ace-club-1 {background: url(../img/card-1.png) 0 -654px}
+.card.two-club-1 {background: url(../img/card-1.png) -113px -654px}
+.card.three-club-1 {background: url(../img/card-1.png) -226px -654px}
+.card.four-club-1 {background: url(../img/card-1.png) -339px -654px}
+.card.five-club-1 {background: url(../img/card-1.png) -452px -654px}
+.card.six-club-1 {background: url(../img/card-1.png) -565px -654px}
+.card.seven-club-1 {background: url(../img/card-1.png) -678px -654px}
+.card.eight-club-1 {background: url(../img/card-1.png) -791px -654px}
+.card.nine-club-1 {background: url(../img/card-1.png) -904px -654px}
+.card.ten-club-1 {background: url(../img/card-1.png) -1017px -654px}
+.card.jack-club-1 {background: url(../img/card-1.png) -1130px -654px}
+.card.queen-club-1 {background: url(../img/card-1.png) -1243px -654px}
+.card.king-club-1 {background: url(../img/card-1.png) -1356px -654px}
 
 .fadeIn {
     animation: fadeIn;
