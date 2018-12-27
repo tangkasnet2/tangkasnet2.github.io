@@ -435,12 +435,12 @@ label {
     margin-top: 0
 }
 
-@media screen and (max-width: 1440px) {
-    .header-info-left h1 {
-        font-size:-webkit-xxx-large;
-        font-weight: 700
-    }
+.header-info-left h1 {
+    font-size:-webkit-xxx-large;
+    font-weight: 700
+}
 
+@media screen and (max-width: 1440px) {
     .login-android img {
         width: 10%
     }
@@ -994,7 +994,7 @@ label {
         width: .8em
     }
 
-    ..header-info-left p {
+    .header-info-left p {
         letter-spacing: 0
     }
 
