@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Internet Offline atau Positif</title>
+        <style>
+            body,h1{margin:0}a,body{color:#333}body{font-size:16px;padding:20px;background:url(/images/banner4.jpg) center fixed no-repeat;background-size:cover;box-sizing:border-box}#box-msg{position:absolute;top:50%;transform:translateY(-50%);padding:30px}h1{font-size:3em;font-family:"Times New Roman",serif}p{margin:10px 0;line-height:1.5;font-size:1.5em;font-family:Arial,serif}a{font-weight:700}@media screen and (min-width:1440px){h1{font-size:4em}p{font-size:2em}}@media screen and (min-width:1920px){h1{font-size:4.5em}p{font-size:2.5em}}
+            img{max-width:100%}#content{width:700px;max-width:95%;margin:20px 0;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);transform:-webkit-translate(-50%,-50%);transform:-moz-translate(-50%,-50%)}#message{min-height:185px;padding:8px 20px;background:rgba(255,255,255,.25);box-shadow:0 0 10px #f0f0f0}
+        </style>
+        <script>
+            window.onload = function () {
+                var req = false;
+                var oReq = new XMLHttpRequest();
+                oReq.addEventListener("load", function () {
+                    req = true;
+                    if (this.status == 200) {
+                        var data = this.responseText;
+                        if (data != 1)
+                            document.querySelector("p").innerHTML = "Kemungkinan Tangkasnet2 di-block Internet Positif / Baik / Bijak, dll. <br/> Silahkan akses Tangkasnet2 melalui <a href='https://tangkasnet.9naga.net'>Mirror</a>";
+                        else
+                            document.querySelector("p").innerHTML = "Sepertinya jaringan internet anda sedang <b>tidak stabil / offline</b>,<br/> harap <b>cek kembali koneksi jaringan internet anda!</b>";
+                    } 
+                    else
+                        document.querySelector("p").innerHTML = "Sepertinya jaringan internet anda sedang <b>tidak stabil / offline</b>,<br/> harap <b>cek kembali koneksi jaringan internet anda!</b>";
+                });
+                oReq.open("GET", "https://tangkasnet2.me/info/?_=" + new Date().getTime());
+                oReq.send();
+
+                setTimeout(function () {
+                    if (!req) {
+                        oReq.abort();
+                        document.querySelector("p").innerHTML = "Sepertinya jaringan internet anda sedang <b>tidak stabil / offline</b>,<br/> harap <b>cek kembali koneksi jaringan internet anda!</b>";
+                    }
+                }, 3000);
+            }
+        </script>	
+    </head>
+
+    <body>
+        <div id="content">
+            <center><img src="/images/logo.png" alt="logo"/></center>
+            <br/><br/>
+            <div id="message">
+                <h1>Akses Tangkasnet2 via <a href='https://tangkasnet.9naga.net'>Mirror</a></h1>
+                <p>Mengecek status..</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

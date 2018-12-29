@@ -19,6 +19,11 @@
             }
             gtag('js', new Date());
             gtag('config', 'UA-131261665-1');
+            
+            var sw="/sw.js";
+            window.onload = function(){
+                navigator.serviceWorker.register(sw,{scope:"./"}).then(function(e){}).catch(function(e){});
+            };
         </script> 
         <link rel="canonical" href="https://tangkasnet2.me" />
     </head>
